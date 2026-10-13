@@ -55,15 +55,23 @@ El detalle semana a semana (objetivos, actividades, entregables y horas) está e
 ├── requirements.txt           ← dependencias de Python
 ├── modulos/
 │   └── NN-nombre/
-│       ├── README.md          ← objetivos, lecciones, caso práctico, autoevaluación y lecturas
-│       └── notebook.ipynb     ← práctica guiada, ejecutable en local o en Colab
-├── proyecto-final/            ← enunciado, hitos, plantilla de informe y rúbrica
+│       ├── README.md              ← objetivos, lecciones, caso práctico, autoevaluación y lecturas
+│       ├── apuntes.md             ← teoría completa de cada lección
+│       ├── diapositivas.pdf / .md ← diapositivas (PDF listo para usar; .md editable con Marp)
+│       ├── notebook.ipynb         ← práctica guiada, ejecutable en local o en Colab
+│       ├── cuestionario.md        ← cuestionario evaluable de 10 preguntas con solucionario
+│       ├── recursos-abiertos.md   ← vídeos (YouTube) y lecturas gratuitas, con su licencia
+│       ├── guiones.md             ← guiones para grabar los vídeos (instructores)
+│       └── soluciones.ipynb       ← soluciones de los ejercicios (instructores)
+├── proyecto-final/                ← enunciado, hitos, plantilla de informe y rúbrica
 ├── docs/
 │   ├── guia-del-instructor.md        ← cómo impartir cada semana y las sesiones en vivo
 │   ├── evaluacion-y-certificado.md   ← sistema de calificación y criterios
+│   ├── recursos-y-licencias.md       ← qué se puede hacer con cada recurso externo
 │   └── como-lanzar-el-curso.md       ← plataforma, precios, mentores, marketing
 └── scripts/
-    └── ejecutar_notebooks.py  ← comprueba que todos los notebooks se ejecutan sin errores
+    ├── ejecutar_notebooks.py      ← comprueba que todos los notebooks se ejecutan sin errores
+    └── generar_diapositivas.sh    ← regenera los PDF de las diapositivas tras editarlas
 ```
 
 ## Cómo empezar (estudiantes)
@@ -88,7 +96,10 @@ Todos los notebooks usan conjuntos de datos incluidos en las librerías (scikit-
 ```bash
 python scripts/ejecutar_notebooks.py          # ejecuta todos los notebooks
 python scripts/ejecutar_notebooks.py 03 04    # solo los módulos 03 y 04
+scripts/generar_diapositivas.sh               # regenera los PDF de las diapositivas (requiere Node.js y Chrome)
 ```
+
+**Vídeos:** el curso todavía no incluye vídeos grabados. Mientras los produces con los `guiones.md` y las diapositivas de cada módulo, puedes usar los vídeos gratuitos enlazados en cada `recursos-abiertos.md`. Antes de hacerlo, revisa [docs/recursos-y-licencias.md](docs/recursos-y-licencias.md) para saber qué permite cada licencia.
 
 ## Licencia
 

@@ -22,6 +22,17 @@ Al terminar este módulo podrás:
 | 0.8 | pandas III: `groupby`, tablas dinámicas y `merge` | 20 min |
 | 0.9 | Visualización: qué gráfico usar para cada pregunta | 15 min |
 
+## Materiales del módulo
+| Material | Para qué sirve |
+|---|---|
+| [`apuntes.md`](apuntes.md) | Teoría de cada lección, para estudiar y repasar |
+| [`diapositivas.pdf`](diapositivas.pdf) ([fuente editable](diapositivas.md)) | Diapositivas de los vídeos y de las sesiones en vivo |
+| [`notebook.ipynb`](notebook.ipynb) | Práctica guiada con ejercicios |
+| [`cuestionario.md`](cuestionario.md) | Cuestionario evaluable de la semana (10 preguntas) |
+| [`recursos-abiertos.md`](recursos-abiertos.md) | Vídeos y lecturas gratuitas recomendadas para cada lección |
+| [`guiones.md`](guiones.md) | *Instructores:* guiones para grabar los vídeos |
+| [`soluciones.ipynb`](soluciones.ipynb) | *Instructores:* soluciones de los ejercicios del notebook |
+
 ## Práctica guiada
 [`notebook.ipynb`](notebook.ipynb) — análisis exploratorio de las ventas de *TiendaSur*, una cadena de 5 tiendas: limpieza de datos, ingresos por tienda y por m², tablas dinámicas, efecto de las promociones y visualización.
 

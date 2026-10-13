@@ -21,6 +21,17 @@
 | 5.7 | Transfer learning y modelos preentrenados | 15 min |
 | 5.8 | Más allá de las imágenes: secuencias, texto y transformers | 10 min |
 
+## Materiales del módulo
+| Material | Para qué sirve |
+|---|---|
+| [`apuntes.md`](apuntes.md) | Teoría de cada lección, para estudiar y repasar |
+| [`diapositivas.pdf`](diapositivas.pdf) ([fuente editable](diapositivas.md)) | Diapositivas de los vídeos y de las sesiones en vivo |
+| [`notebook.ipynb`](notebook.ipynb) | Práctica guiada con ejercicios |
+| [`cuestionario.md`](cuestionario.md) | Cuestionario evaluable de la semana (10 preguntas) |
+| [`recursos-abiertos.md`](recursos-abiertos.md) | Vídeos y lecturas gratuitas recomendadas para cada lección |
+| [`guiones.md`](guiones.md) | *Instructores:* guiones para grabar los vídeos |
+| [`soluciones.ipynb`](soluciones.ipynb) | *Instructores:* soluciones de los ejercicios del notebook |
+
 ## Práctica guiada
 [`notebook.ipynb`](notebook.ipynb) — reconocimiento de dígitos manuscritos: referencia con regresión logística, MLP y CNN en PyTorch, curvas de aprendizaje, visualización de filtros y análisis de errores. Funciona en CPU en pocos minutos.
 

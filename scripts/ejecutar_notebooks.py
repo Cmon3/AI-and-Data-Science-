@@ -1,4 +1,4 @@
-"""Ejecuta los notebooks de los módulos y comprueba que no fallan.
+"""Ejecuta los notebooks de los módulos (prácticas y soluciones) y comprueba que no fallan.
 
 Uso:
     python scripts/ejecutar_notebooks.py          # todos los módulos
@@ -18,7 +18,7 @@ RAIZ = Path(__file__).resolve().parents[1]
 
 
 def main(filtros):
-    notebooks = sorted((RAIZ / "modulos").glob("*/notebook.ipynb"))
+    notebooks = sorted((RAIZ / "modulos").glob("*/*.ipynb"))
     if filtros:
         notebooks = [nb for nb in notebooks if nb.parent.name.split("-")[0] in filtros]
     if not notebooks:
@@ -31,9 +31,9 @@ def main(filtros):
         ejecutor = ExecutePreprocessor(timeout=900, kernel_name="python3")
         try:
             ejecutor.preprocess(nb, {"metadata": {"path": str(ruta.parent)}})
-            print(f"OK     {ruta.parent.name:35s} {time.time() - inicio:6.1f} s")
+            print(f"OK     {ruta.parent.name + '/' + ruta.name:55s} {time.time() - inicio:6.1f} s")
         except CellExecutionError as error:
-            print(f"FALLO  {ruta.parent.name:35s}")
+            print(f"FALLO  {ruta.parent.name}/{ruta.name}")
             fallos.append((ruta, error))
 
     for ruta, error in fallos:

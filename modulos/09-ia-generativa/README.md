@@ -22,6 +22,17 @@
 | 9.7 | Agentes: cuándo sí y cuándo no | 10 min |
 | 9.8 | Riesgos, gobernanza y marco regulatorio (RGPD, Reglamento europeo de IA) | 15 min |
 
+## Materiales del módulo
+| Material | Para qué sirve |
+|---|---|
+| [`apuntes.md`](apuntes.md) | Teoría de cada lección, para estudiar y repasar |
+| [`diapositivas.pdf`](diapositivas.pdf) ([fuente editable](diapositivas.md)) | Diapositivas de los vídeos y de las sesiones en vivo |
+| [`notebook.ipynb`](notebook.ipynb) | Práctica guiada con ejercicios |
+| [`cuestionario.md`](cuestionario.md) | Cuestionario evaluable de la semana (10 preguntas) |
+| [`recursos-abiertos.md`](recursos-abiertos.md) | Vídeos y lecturas gratuitas recomendadas para cada lección |
+| [`guiones.md`](guiones.md) | *Instructores:* guiones para grabar los vídeos |
+| [`soluciones.ipynb`](soluciones.ipynb) | *Instructores:* soluciones de los ejercicios del notebook |
+
 ## Práctica guiada
 [`notebook.ipynb`](notebook.ipynb) — asistente de atención al cliente de *TiendaSur* con la API de Claude: clasificación de reseñas con un prompt vago frente a uno preciso con ejemplos, extracción de tickets a JSON validado con Pydantic, buscador TF-IDF (por palabras y por caracteres) sobre 8 políticas internas con evaluación de acierto@k, respuestas RAG con citas y una prueba de inyección de instrucciones.
 

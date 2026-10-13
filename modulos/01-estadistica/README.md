@@ -19,6 +19,17 @@
 | 1.6 | Bootstrap: incertidumbre para cualquier métrica | 15 min |
 | 1.7 | Correlación, causalidad y paradoja de Simpson | 15 min |
 
+## Materiales del módulo
+| Material | Para qué sirve |
+|---|---|
+| [`apuntes.md`](apuntes.md) | Teoría de cada lección, para estudiar y repasar |
+| [`diapositivas.pdf`](diapositivas.pdf) ([fuente editable](diapositivas.md)) | Diapositivas de los vídeos y de las sesiones en vivo |
+| [`notebook.ipynb`](notebook.ipynb) | Práctica guiada con ejercicios |
+| [`cuestionario.md`](cuestionario.md) | Cuestionario evaluable de la semana (10 preguntas) |
+| [`recursos-abiertos.md`](recursos-abiertos.md) | Vídeos y lecturas gratuitas recomendadas para cada lección |
+| [`guiones.md`](guiones.md) | *Instructores:* guiones para grabar los vídeos |
+| [`soluciones.ipynb`](soluciones.ipynb) | *Instructores:* soluciones de los ejercicios del notebook |
+
 ## Práctica guiada
 [`notebook.ipynb`](notebook.ipynb) — estimar el importe medio de los pedidos de una app de reparto: simulación del TCL, cobertura de los intervalos de confianza, bootstrap de la mediana y un ejemplo de paradoja de Simpson en un test de conversión.
 

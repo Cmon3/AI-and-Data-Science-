@@ -21,6 +21,17 @@
 | 8.7 | Validación temporal y métricas (MAE, MAPE) | 15 min |
 | 8.8 | Variables externas, múltiples series y modelos de machine learning | 10 min |
 
+## Materiales del módulo
+| Material | Para qué sirve |
+|---|---|
+| [`apuntes.md`](apuntes.md) | Teoría de cada lección, para estudiar y repasar |
+| [`diapositivas.pdf`](diapositivas.pdf) ([fuente editable](diapositivas.md)) | Diapositivas de los vídeos y de las sesiones en vivo |
+| [`notebook.ipynb`](notebook.ipynb) | Práctica guiada con ejercicios |
+| [`cuestionario.md`](cuestionario.md) | Cuestionario evaluable de la semana (10 preguntas) |
+| [`recursos-abiertos.md`](recursos-abiertos.md) | Vídeos y lecturas gratuitas recomendadas para cada lección |
+| [`guiones.md`](guiones.md) | *Instructores:* guiones para grabar los vídeos |
+| [`soluciones.ipynb`](soluciones.ipynb) | *Instructores:* soluciones de los ejercicios del notebook |
+
 ## Práctica guiada
 [`notebook.ipynb`](notebook.ipynb) — concentración de CO₂ en Mauna Loa (1958–2001): descomposición STL, prueba ADF, ACF/PACF, cuatro referencias ingenuas, Holt-Winters y SARIMA, pronóstico a 24 meses con intervalo de confianza y *backtesting* a lo largo de 7 años.
 

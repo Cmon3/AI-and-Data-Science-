@@ -20,6 +20,17 @@
 | 6.6 | Evaluación offline y pruebas A/B de recomendadores | 15 min |
 | 6.7 | Arranque en frío, diversidad y burbujas de filtro | 10 min |
 
+## Materiales del módulo
+| Material | Para qué sirve |
+|---|---|
+| [`apuntes.md`](apuntes.md) | Teoría de cada lección, para estudiar y repasar |
+| [`diapositivas.pdf`](diapositivas.pdf) ([fuente editable](diapositivas.md)) | Diapositivas de los vídeos y de las sesiones en vivo |
+| [`notebook.ipynb`](notebook.ipynb) | Práctica guiada con ejercicios |
+| [`cuestionario.md`](cuestionario.md) | Cuestionario evaluable de la semana (10 preguntas) |
+| [`recursos-abiertos.md`](recursos-abiertos.md) | Vídeos y lecturas gratuitas recomendadas para cada lección |
+| [`guiones.md`](guiones.md) | *Instructores:* guiones para grabar los vídeos |
+| [`soluciones.ipynb`](soluciones.ipynb) | *Instructores:* soluciones de los ejercicios del notebook |
+
 ## Práctica guiada
 [`notebook.ipynb`](notebook.ipynb) — plataforma de streaming con 600 usuarios y 300 películas: referencia de popularidad y de sesgos, filtrado ítem-ítem, ALS implementado desde cero, comparación con RMSE y precisión@5, selección del número de factores y recomendaciones personalizadas. El último ejercicio repite el análisis con **MovieLens 100K**.
 

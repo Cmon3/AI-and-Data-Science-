@@ -22,6 +22,17 @@
 | 4.8 | Pruebas A/B de principio a fin | 20 min |
 | 4.9 | Trampas: comparaciones múltiples, *peeking*, efecto novedad | 10 min |
 
+## Materiales del módulo
+| Material | Para qué sirve |
+|---|---|
+| [`apuntes.md`](apuntes.md) | Teoría de cada lección, para estudiar y repasar |
+| [`diapositivas.pdf`](diapositivas.pdf) ([fuente editable](diapositivas.md)) | Diapositivas de los vídeos y de las sesiones en vivo |
+| [`notebook.ipynb`](notebook.ipynb) | Práctica guiada con ejercicios |
+| [`cuestionario.md`](cuestionario.md) | Cuestionario evaluable de la semana (10 preguntas) |
+| [`recursos-abiertos.md`](recursos-abiertos.md) | Vídeos y lecturas gratuitas recomendadas para cada lección |
+| [`guiones.md`](guiones.md) | *Instructores:* guiones para grabar los vídeos |
+| [`soluciones.ipynb`](soluciones.ipynb) | *Instructores:* soluciones de los ejercicios del notebook |
+
 ## Práctica guiada
 [`notebook.ipynb`](notebook.ipynb) — (1) diagnóstico de tumores de mama con cuatro clasificadores, curvas ROC y umbral óptimo con un coste de falso negativo 20 veces mayor; (2) tamaño muestral y análisis de una prueba A/B de conversión, corrección por comparaciones múltiples y simulación del efecto de mirar resultados a diario.
 
